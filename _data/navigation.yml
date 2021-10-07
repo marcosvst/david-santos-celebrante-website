@@ -1,0 +1,14 @@
+- label: Início
+  url: /
+
+- label: Sobre
+  url: /sobre
+
+- label: Celebrante de casamentos
+  url: /celebrante
+
+- label: Fotos e vídeos
+  url: /galeria
+
+- label: contato
+  url: /contato

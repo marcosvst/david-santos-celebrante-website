@@ -1,0 +1,26 @@
+header: "Diferentes ritos culturais"
+description: "Uma cerimônia de casamento pode ser tradicional, mas o que não pode deixar de ser: é intimista e personalizada."
+services:
+  - title: "Areias coloridas"
+    icon: "icofont-laboratory"
+    description: "Areias de diversas cores são misturadas em um recipiente maior simbolizando as características e os desejos  do casal."
+    
+  - title: "Vinho"
+    icon: "icofont-glass"
+    description: "O vinho simboliza a alegria, o amor e a maturidade que os nubentes alcançam com a vivência amorosa."
+
+  - title: "Luz"
+    icon: "icofont-fire-burn"
+    description: "Simboliza toda a esperança que nasce com a nova família e revela o desejo da vivência amorosa, sadia e iluminada."
+
+  - title: "Árvore"
+    icon: "icofont-tree-alt"
+    description: "Uma muda de árvore é plantada simbolizando o amor que deve ser cultivado pelos nubentes."
+
+  - title: "Rosas"
+    icon: "icofont-flora-flower"
+    description: "São distribuídas rosas de diversas cores que simbolizam as vivências e os desejos dos nubentes."
+
+  - title: "Alianças"
+    icon: "icofont-jewlery"
+    description: "As alianças passam pelas mãos dos convidados que desejam sobre elas positividade, prosperidade e paz."
