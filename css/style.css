@@ -1486,7 +1486,7 @@ a:focus {
   opacity: 1;
 }
 
-image-bg {
+.image-bg {
   background-image: url("../images/bg/slider-bg-5.jpg");
   background-position: center;
   background-repeat: no-repeat;
