@@ -19,11 +19,6 @@ body {
   font-size: 16px;
   color: #6F8BA4;
   font-weight: 400;
-  background-image: url("../images/bg/slider-bg-5.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: white;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -1489,6 +1484,13 @@ a:focus {
   transition: all .3s;
   cursor: pointer;
   opacity: 1;
+}
+
+image-bg {
+  background-image: url("../images/bg/slider-bg-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
