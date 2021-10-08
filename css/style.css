@@ -19,6 +19,7 @@ body {
   font-size: 16px;
   color: #6F8BA4;
   font-weight: 400;
+  background: url("../images/bg/slider-bg-1.jpg") no-repeat fixed;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -1484,11 +1485,6 @@ a:focus {
   transition: all .3s;
   cursor: pointer;
   opacity: 1;
-}
-
-.bg-image {
-  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
-  position: fixed;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
