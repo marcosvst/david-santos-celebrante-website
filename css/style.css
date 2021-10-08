@@ -1486,4 +1486,9 @@ a:focus {
   opacity: 1;
 }
 
+.bg-image {
+  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+  position: fixed;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
