@@ -12,7 +12,7 @@
         <ul class="navbar-nav ml-auto">
             {% for item in site.data.navigation %}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ item.url }}">{{ item.label }}</a>
+                    <a class="nav-link" href="{{ item.url }}" target="{{ item.target }}">{{ item.label }}</a>
                 </li>
             {% endfor %}
         </ul>
