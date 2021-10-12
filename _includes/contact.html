@@ -5,14 +5,14 @@
 				<div class="appoinment-content">
 					<img src="images/ceremonies/ceremony-04.jpg" alt="" class="img-fluid">
 					<div class="emergency">
-						<h2 class="text-md"><a href="https://wa.me/{{ site.data.info.whatsapp }}" style="text-decoration: none;"><i class="icofont-phone-circle text-md"></i>{{ site.data.info.phone }}</a></h2>
+						<h2 class="text-md"><a href="https://wa.me/{{ site.data.info.whatsapp }}" class="text-white"><i class="icofont-phone-circle text-md"></i>{{ site.data.info.phone }}</a></h2>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-10 ">
 				<div class="appoinment-wrap mt-5 mt-lg-0">
 					<h2 class="mb-2 title-color">Entre em contato</h2>
-					<p class="mb-4">Deixe aqui sua mensagem para que David Santos entre em contato.</p>
+					<p class="mb-4">Mande uma mensagem diretamente para David.</p>
 					<form id="#" class="appoinment-form" action="https://formspree.io/f/xbjqbpbd" method="POST">
 						<div class="row">
 							<div class="col-lg-12">
@@ -23,13 +23,13 @@
 							</div>
 							<div class="col-lg-6">
 								<div class="form-group">
-									<label for="name">Email</label>
+									<label for="name">Cidade</label>
 									<input name="date" id="_replyto" type="text" class="form-control" placeholder="Digite aqui seu email" required>
 								</div>
 							</div>
 							<div class="col-lg-6">
 								<div class="form-group">
-									<label for="name">Telefone</label>
+									<label for="name">Data prevista</label>
 									<input name="telephone" id="date" type="text" class="form-control" placeholder="WhatsApp, Telegram, celular etc.">
 								</div>
 							</div>
@@ -39,7 +39,8 @@
 							<textarea name="message" id="message" class="form-control" rows="6" placeholder="Digite sua mensagem aqui" required></textarea>
 						</div>
 
-						<input type="submit" class="btn btn-main btn-round-full" href="" value="Enviar mensagem">
+						<input type="button" class="btn btn-main btn-round-full" href="https://wa.me/{{ site.data.info.whatsapp }}" value="Enviar mensagem por WhatsApp">
+						<input type="submit">Ou enviar email</>
 					</form>
 				</div>
 			</div>
