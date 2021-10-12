@@ -56,13 +56,16 @@
 
 <script>
 	sendWhatsAppMessageBtn = document.getElementById('sendWhatsAppMessageBtn')
-	sendWhatsAppMessage.addEventListener("click", () => {
+
+	sendWhatsAppMessageBtn.addEventListener("click", (e) => {
+		e.preventDefault()
+
 		name =    document.getElementById('name').value
-		email =   document.getElementById('email').value
+		email =   document.getElementById('_replyto').value
 		city =    document.getElementById('city').value
 		date =    document.getElementById('date').value
 		message = document.getElementById('message').value
 
-		this.href=`https://wa.me/+5531991438577?text=Olá%20David,%20${message}`
+		window.location = `https://wa.me/+5531991438577?text=Ol%C3%A1%20David%2C%20meu%20nome%20%C3%A9%20${name}%20e%20essa%20%C3%A9%20minha%20mensagem%3A%0A%0A${message}.%0A%0AAlguns%20outros%20detalhes%20que%20podem%20ajudar%3A%0A%0AEmail%3A%20${email}%0ACidade%3A%20${city}%0AData%3A%20${date}`
 	})
 </script>
