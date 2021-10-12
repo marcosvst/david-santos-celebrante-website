@@ -45,7 +45,7 @@
 							<textarea name="mensagem" id="message" class="form-control" rows="6" placeholder="Digite sua mensagem aqui" required></textarea>
 						</div>
 
-						<a href="https://wa.me/{{ site.data.info.whatsapp }}" class="btn btn-main btn-round-full">Enviar mensagem no WhatsApp</a>
+						<a href="" id="sendWhatsAppMessageBtn" class="btn btn-main btn-round-full">Enviar mensagem no WhatsApp</a>
 						<input type="submit" value="Ou envie por email" style="background: none; border: none; text-decoration: underline; cursor: pointer;">
 					</form>
 				</div>
@@ -53,3 +53,16 @@
 		</div>
 	</div>
 </section>
+
+<script>
+	sendWhatsAppMessageBtn = document.getElementById('sendWhatsAppMessageBtn')
+	sendWhatsAppMessage.addEventListener("click", () => {
+		name =    document.getElementById('name').value
+		email =   document.getElementById('email').value
+		city =    document.getElementById('city').value
+		date =    document.getElementById('date').value
+		message = document.getElementById('message').value
+
+		this.href=`https://wa.me/+5531991438577?text=Olá%20David,%20${message}`
+	})
+</script>
