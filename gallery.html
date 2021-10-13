@@ -4,7 +4,10 @@ layout: page
 title: Fotos e vídeos
 ---
 
-<div class="row">
+<h2 class="text-md">{{ page.title }}</h2>
+<div class="divider my-4"></div>
+
+<section class="row">
     {% for photo in site.data.gallery.photos %}
         <div class="col-12 col-md-4" style="transition-delay: 0s;">
             <a href="{{ photo.url }}" class="glightbox">
@@ -12,7 +15,7 @@ title: Fotos e vídeos
             </a>
         </div>
     {% endfor %}
-</div>
+</section>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
